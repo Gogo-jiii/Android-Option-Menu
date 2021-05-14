@@ -19,8 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/toolbar_menu"
-        app:navigationIcon="@drawable/ic_baseline_arrow_back"
         app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
-        app:title="Toolbar" />
+        app:title="Option Menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.example.toolbar;
+package com.example.optionmenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -16,10 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar = findViewById(R.id.toolbar);
-
-        toolbar.setNavigationOnClickListener(v -> {
-            Toast.makeText(this, "back icon clicked.", Toast.LENGTH_SHORT).show();
-        });
 
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override public boolean onMenuItemClick(MenuItem item) {
